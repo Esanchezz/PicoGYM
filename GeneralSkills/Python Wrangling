@@ -1,1 +1,12 @@
-#
+# Python Wrangling
+
+## Problem
+> In this problem I had to download 3 files: ende.py, flag.txt.en, and pw.txt. I needed to run the python file and give the proper password in order to get the flag
+
+## Solution
+1. Use linux terminal and run open '/root/Desktop/Picoctf General Skills/Python Wrangling/pw.txt' command to open the file pw.txt and retrieve pw key
+2. Use linux terminal and run the command python ende.py -d flag.txt.en to run the python file in terminal
+3. Paste the pw key to gain access to the picoctf(flag)
+
+## CTF flag
+picoCTF{4p0110_1n_7h3_h0us3_68f88f93}
