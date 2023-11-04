@@ -1,0 +1,13 @@
+# Obedient Cat
+
+## Problem
+> This is probably the easiest problem on the site, but I started with this one to understand some simple linux commands
+
+## Solution
+1. I opened up my virtual box running kali linux
+2. I copied the link that was titled "Download flag" https://mercury.picoctf.net/static/a5683698ac318b47bd060cb786859f23/flag
+3. I opened the linux terminal and used the command wget https://mercury.picoctf.net/static/a5683698ac318b47bd060cb786859f23/flag to download the file flag
+4. Used command open flag to see the picoCTF(flag)
+
+## CTF flag
+picoCTF{s4n1ty_v3r1f13d_4a2b35fd}
