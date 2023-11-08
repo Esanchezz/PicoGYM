@@ -1,1 +1,13 @@
-#
+# Nice Netcat
+
+## Problem
+> In this problem we are introduced to netcat which is a networking utility that can be used for various network-related tasks, including reading and writing to network connections. The problem is that the program is not
+speaking english...
+
+## Solution
+1. I ran the command given "nc mercury.picoctf.net 49039" and was given a list of numbers
+2. The numbers could be anything but since its general skills, I assumed it was ascii
+3. I ran a ascii translator with the numbers and it translated to the flag
+
+# Flag
+picoCTF{g00d_k1tty!_n1c3_k1tty!_3d84edc8}
