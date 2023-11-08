@@ -4,4 +4,10 @@
 > In this problem we are given a program that isn't very readable when opened in the linux terminal.
 
 ## Solution
+1. What I did first was open the file in the linux terminal but found that it wasn't very readable.
+2. I changed the file in linux terminal by running the command "chmod +x warm" to add permission to execute as a program
+3. To run file, i used ./warm to run warm in the current directory
+4. The program tells me to use -h to learn more information about the program
 
+## Flag
+picoCTF{b1scu1ts_4nd_gr4vy_6635aa47}
