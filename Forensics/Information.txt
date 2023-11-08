@@ -1,0 +1,14 @@
+# Information
+
+## Problem
+> In this problem we are just given a jpg of a cute cat :3
+
+## Solution
+1. I downloaded the file that was given to me onto my computer
+2. I opened the file only to shown a picture of a cute cat with no clues in the photo
+3. I checked the properties of the file to found with nothing unusual about the file
+4. I figured why not just start changing the file type so I started with .txt
+5. Nothing promising looked appealing to me in the file other than this "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" because it looked like base64 which is binary turned to ascii string format
+
+## Flag
+picoCTF{the_m3tadata_1s_modified}
