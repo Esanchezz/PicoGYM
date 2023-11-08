@@ -1,0 +1,14 @@
+# Matryoshka Doll
+
+## Problem
+> The problem for this forensic case is similar to the Information problem. We are given a jpg file of a matryoshka doll.
+
+## Solution
+1. Similarly to the cat.jpg i tried to see if i can find anything fishy in the properties of the file
+2. Nothing unusual was found, so I turned the file into a txt file.
+3. Nothing was readable or seemed to look like base64 so i tried changing the file again this time into a zip file
+4. It turns out that once turning the file into a zip file, we are given another folder with another image with a matryoshka doll, so I repeated the process until it gave me the flag.txt file
+5. Annoyingly, the flag had single spaces in between all the characters so I inputed the faulty flag into a space remover and got the flag
+
+## Flag
+picoCTF{bf6acf878dcbd752f4721e41b1b1b66b}
